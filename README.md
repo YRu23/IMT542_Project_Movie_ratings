@@ -1,2 +1,16 @@
 # IMT542_Project_Movie_ratings
 Information about the project for course imt 542A. Detail description, data and code are provided
+
+## About the Project
+This project is dedicated to developing an application that consolidates movie ratings from a variety of sources, including prominent movie rating systems such as IMDb, TMDb, and Metacritic, as well as rankings from major streaming platforms like Netflix. The application not only provides a comprehensive view of each movie's reception across different platforms but also allows users to create their own movie rating systems within their social groups. By blending public reviews with personal opinions and those of friends, users can gain a more personalized and communal perspective on movie ratings.
+
+## Problem Statement
+Currently, movie ratings are dispersed across multiple platforms, making it cumbersome for users to gather a holistic view of a movie's reception. Users often have to visit multiple websites or perform separate searches to see ratings from IMDb, Rotten Tomatoes, Metacritic, and other sources. This fragmented approach not only wastes time but also complicates the decision-making process for movie enthusiasts who rely on these ratings to choose what to watch. Additionally, existing platforms do not facilitate the integration of personal and social group ratings with these public reviews.
+
+## Solution
+This application addresses the issue by aggregating movie ratings from various established sources into a single, unified view. It calculates an average rating from all the main platforms, providing users with a clear and comprehensive overview. Furthermore, our application allows users to input their own ratings and share them with their social groups. This feature helps users track their preferences, see how their tastes align with their friends, and make more informed viewing choices based on a blend of public and personal opinions. By connecting with friends, users can view an average movie rating score within their social groups, enhancing the social and interactive aspect of movie watching.
+
+## Measure Capability of FAIR Implementation
+Movie Rating Aggregator is an open-source data repository designed to aggregate and provide access to movie ratings and related metadata from various official movie rating sources. Each dataset in the repository is assigned a unique identifier, facilitating easy discovery, citation, and access to the original resource (F, I). Detailed information, such as metadata timestamps, the timeline of ratings, and the analytic structure to integrate the rating values, is included to ensure comprehensive data representation (F, R).
+
+Users can access detailed metadata through a landing page that includes basic information such as the movie name, ratings, and an overview, which remains available even if the primary data is restricted or removed (F, A). The platform provides a user-friendly interface for data retrieval and exploration, ensuring that data is accessible and searchable for all types of users (A, R). This structure enhances the reusability of data by maintaining high-quality metadata and supporting community standards for data sharing and citation (R).
